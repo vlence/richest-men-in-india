@@ -4,6 +4,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Richest Men in India</title>
+
+  <style>
+    @keyframes blink {
+      0% {
+        background: white
+      }
+
+      25% {
+        background: url('/3rd-richest-man-in-india.png')
+      }
+
+      50% {
+        background: url('/3rd-richest-man-in-india.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      100% {
+        background-position: center
+      }
+    }
+
+    body {
+      animation: blink 5s linear infinite;
+    }
+  </style>
 </head>
 <body>
   <ol>
